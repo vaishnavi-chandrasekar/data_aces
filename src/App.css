@@ -1,38 +1,114 @@
+h1 {
+  color: #4267b2;
+  font-size: 4rem;
+  margin-left: 20%;
+  margin-top: 10%;
+}
 .App {
-  text-align: center;
+  display: flex;
+  background-color: aliceblue;
+  padding-bottom: 12%;
+  width: 100%;
+  height: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 900px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    padding: 10%;
+    background-color: aliceblue;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.form {
+  margin-top: 7%;
+  width: 25%;
+  height: 50%;
+  background-color: white;
+  margin-left: 10%;
+  padding: 2%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 900px) {
+  .form {
+    width: 100%;
+    height: 100%;
+    padding: 6%;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    margin: 0;
+  }
+}
+input {
+  padding: 4%;
+  margin: 2%;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid blue;
+}
+input,
+textarea {
+  width: 90%;
+}
+
+button {
+  padding: 2%;
+  margin: 2%;
+  width: 98%;
+  font-size: 1.2rem;
+  border-radius: 8px;
+}
+p {
+  text-align: center;
+  color: blue;
+}
+h4 {
+  box-shadow: 10px 10px 8px black;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+  text-align: left;
+}
+.footer {
+  font-size: 0.8rem;
+}
+.new_acc {
+  background-color: green;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.submit {
+  background-color: blue;
+  color: white;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer_details {
+  font: 0.8rem;
+  text-align: left;
+  color: gray;
+}
+.boxshadow {
+  box-shadow: 0 0 8px black;
+  color: black;
+  text-align: left;
+}
+.foot {
+  text-align: right;
+  padding: 0 10% 3% 20%;
+  font-size: 0.8rem;
+  color: gray;
+}
+.other_details {
+  text-align: left;
+  margin-right: 10%;
+  color: gray;
+}
+.meta {
+  text-align: left;
+  color: gray;
 }
