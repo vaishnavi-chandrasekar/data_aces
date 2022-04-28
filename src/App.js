@@ -74,7 +74,7 @@ function App() {
               <span style={{ color: "red" }}>{formik.errors.Password}</span>
             ) : null}
             <br />
-            <button type="submit" className="submit" onClick={reload}>
+            <button type="submit" className="submit" >
               உள்நுழைக
             </button>
             <p> கடவுச்சொல்லை மறந்துவிட்டீர்களா?</p>
